@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #0056b3;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  height: 80vh;
+  background: linear-gradient(to right, #0056b3, #007bff);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 3em;
+}
+
+.cta-button {
+  background-color: #ffcc00;
+  color: #0056b3;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #ffc107;
+}
+
+.section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.inquiry-form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.inquiry-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.inquiry-form input,
+.inquiry-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submit-button:hover {
+  background-color: #007bff;
+}
+
+footer {
+  background-color: #f8f9fa;
+  color: #555;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
